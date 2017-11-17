@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test_index": "./node_modules/mocha/bin/mocha ./test/index/index.test.js -t 10000000"
+    "test_index": ".\\node_modules\\mocha\\bin\\mocha .\\test\\index\\index.test.js -t 10000000",
+    "sh_test_index": "sh shell/test.sh"
   },
   "author": "",
   "license": "ISC",
